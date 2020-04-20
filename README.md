@@ -8,12 +8,19 @@ Database is updated to mark attendance to students preset. Anyone can check thei
 
 # Requirements
 Python 3
+
 OpenCV2
+
 Numpy
+
 Mysql
+
 imutils
+
 scikit-learn
+
 Pickle
+
 Tkinter
 
 # How to run
