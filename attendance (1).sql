@@ -38,11 +38,11 @@ CREATE TABLE `faculty` (
 --
 
 INSERT INTO `faculty` (`roll_no`, `course`, `date`) VALUES
-('18bce023', '2cs402', '2020-04-18'),
-('18bce027', '2cs402', '2020-04-18'),
-('18bce023', '2cs403', '2020-04-18'),
-('18bce027', '2cs403', '2020-04-18'),
-('18bce023', '2cs402', '2020-04-18');
+('1bce0', '2cs402', '2020-04-18'),
+('1bce0', '2cs402', '2020-04-18'),
+('1bce0', '2cs403', '2020-04-18'),
+('1bce0', '2cs403', '2020-04-18'),
+('1bce0', '2cs402', '2020-04-18');
 
 -- --------------------------------------------------------
 
@@ -81,10 +81,10 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`roll_no`, `name`) VALUES
-('18bce000', 'Trump'),
-('18bce022', 'balakrushna'),
-('18bce023', 'shivam'),
-('18bce027', 'sahil');
+('1bce0', 'Trump'),
+('1bce', 'balakrushna'),
+('1bce', 'shivam'),
+('1bce', 'sahil');
 
 --
 -- Indexes for dumped tables
