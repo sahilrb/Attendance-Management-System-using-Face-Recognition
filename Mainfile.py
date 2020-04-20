@@ -478,10 +478,12 @@ def show2():
     cursor = db.cursor()
     roll10=code1.get()
     cursor.execute("create table faculty_new as select * from faculty where course like %s", (roll10,))
-    cursor.execute("select roll_no,date,count(*) from faculty_new group by roll_no")
+    cursor.execute("select roll_no,date,count(*) from faculty_new group by roll_no,date")
     Listbox1.insert(END,"Name")
     Listbox1.insert(END,"1)roll_no      2)Date        3)Total attendance in this course")
     Listbox1.insert(END," ")
+    Listbox1.insert(END,"Course Code")
+    Listbox1.insert(END,roll10)
     Listbox1.insert(END," ")
     a=cursor.fetchall()
     for i in a:
@@ -540,7 +542,7 @@ def show1():
     Listbox1.insert(END," ")
     Listbox1.insert(END,"Attendance")
     cursor.execute("create table faculty_new as select * from faculty where roll_no like %s",(roll10,))
-    cursor.execute("select course,date,count(*) from faculty_new group by course")
+    cursor.execute("select course,date,count(*) from faculty_new group by course,date")
     a=cursor.fetchall()
     for i in a:
         Listbox1.insert(END,i)
