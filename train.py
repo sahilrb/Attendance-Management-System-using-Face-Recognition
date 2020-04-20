@@ -71,3 +71,4 @@ def train1():
     f = open("le.pickle", "wb")
     f.write(pickle.dumps(le))
     f.close()
+    
