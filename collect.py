@@ -45,3 +45,4 @@ def take(new_student):
     capture.release()
     cv2.destroyAllWindows()
     
+    
