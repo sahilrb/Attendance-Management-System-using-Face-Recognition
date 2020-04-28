@@ -36,19 +36,23 @@ Put all files in one folder only
 
 First run MainFile.py file
 
-First register yourself and then login
+First register yourself and then login(as student or as faculty).
 
-If you want to add new student click on add student button.
+If you register as student you have to add courses in which you enrolled. 
+
+If you want to add new student click on add student button(login with faculty id necessary).
 Add name and unique roll_no of new student
 Press take samples button, this will open your camera and take samples new student
 
-After taking samples you have to train dataset, for that click Train data button, this will take 2-3 minutes(Training data is necessary whenever new student is added).
+After taking samples you have to train dataset, for that click Train data button, this will take 2-3 minutes(Training data is necessary whenever new student is added)(login with faculty id necessary).
 
-To take attendance click on take attendance button, In opened window add course code for which course you want to take attendance, and press 
+To take attendance click on take attendance button, In opened window add course code for which course you want to take attendance, and press(login with faculty id necessary)
 take attendance button, this will open camera and take attendance of those student which are in camera frame and already present in database
 Press enter to close camera
 
 To check attendance click on check attendance button, here you can check your attendance roll_no wise and course wise
+
+Here you can also add or delete attendance manually with constrains.(login with faculty id necessary)
 
 Use back button to go to previous window
 
