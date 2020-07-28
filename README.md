@@ -1,6 +1,6 @@
 # Python-Project
 
-# Face Recogntion Based Attendance System
+# Face Recognition Based Attendance System
 A Face recognition based Attendance Management project based on python which can mark attendance of those students which are in current camera 
 frame and already present in our database. This project uses many python libraries. An sample of images of newly added student is taken and 
 by using opencv and some concept of deep learning dataset is trained and when taking attendance system detects indivuals in the video frame. 
