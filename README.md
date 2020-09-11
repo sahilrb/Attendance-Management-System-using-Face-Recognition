@@ -60,5 +60,3 @@ Note: In some version of python and in some ides, that ide can't release camera 
 without rerunning the python file. It may cause some issues in that case you have to rerun the python file.(This issue is completely version
 specific and depends on your ide so you may or may not face issue, we can't do anything about it). 
 
-# Contributors
-This project is done by Shivam, Sahil and Balakrushna.
